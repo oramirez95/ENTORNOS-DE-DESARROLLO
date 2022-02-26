@@ -17,8 +17,8 @@ public class Producto {
 	 * así como su potencia
 	 */
 	//Producto de 2 números reales
-	public float productoDosReales(float num1, float num2) {
-		float resultado = num1 * num2;
+	public double productoDosReales(double num1, double num2) {
+		double resultado = num1 * num2;
 		return resultado;
 	}
 	/**
@@ -40,8 +40,8 @@ public class Producto {
 	 * @return devuelve el <b>producto</b> de <b>ambos</b> números reales
 	 */
 	//Producto de 3 números reales
-	public float productoTresReales(float num1, float num2, float num3) {
-		float resultado = num1 * num2 * num3;
+	public double productoTresReales(double num1, double num2, double num3) {
+		double resultado = num1 * num2 * num3;
 		return resultado;
 	}
 	/**
